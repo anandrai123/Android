@@ -1,0 +1,5 @@
+<root>
+    <item name='java.util.Calendar int get(int)'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "959465584816",
+    "firebase_url": "https://anandfire-92aee.firebaseio.com",
+    "project_id": "anandfire-92aee",
+    "storage_bucket": "anandfire-92aee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959465584816:android:2d004bcd90adfed9",
+        "android_client_info": {
+          "package_name": "com.example.kiit.anandfire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959465584816-iq28slper1ms2h67q6tjaepcqg1hij9o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kiit.anandfire",
+            "certificate_hash": "05b5b292674425451bc365ca161d7f4c12d6c039"
+          }
+        },
+        {
+          "client_id": "959465584816-v9slirkbrmm3svebt164jgb6dn0dujq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWRnuft8Jx4C5uGoyg1l3X84wRa0i6IWM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959465584816-v9slirkbrmm3svebt164jgb6dn0dujq5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

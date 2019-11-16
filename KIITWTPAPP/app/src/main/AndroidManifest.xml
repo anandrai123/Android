@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kiit.kiitwtpapp">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".CounterActivity" />
+        <activity android:name=".MY_Calc" />
+        <activity android:name=".GreetingActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".LoginResultActivity" />
+        <activity android:name=".DealActivity" />
+        <activity android:name=".ConfirmationActivity" />
+        <activity android:name=".FriendActivity" />
+        <activity android:name=".MenuActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".horizontal_scrollActivity" />
+        <activity android:name=".CalenderTimeActivity" />
+        <activity android:name=".SeekBarActivity" />
+        <activity android:name=".AlterDialogActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".RegistrationResultActivity" />
+        <activity android:name=".CreateActivity" />
+        <activity android:name=".InsertActivity" />
+        <activity android:name=".UpdateActivity" />
+        <activity android:name=".DeleteActivity" />
+        <activity android:name=".ShowActivity" />
+
+        <provider
+            android:name=".MyContentProvider"
+            android:authorities="akr.1998"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".MyServiceActivity" />
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".MyMusicActivity" />
+
+        <receiver
+            android:name=".PowerReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".BlankActivity" />
+        <activity android:name=".NatificationActivity" />
+        <activity android:name=".CameraActivity" />
+        <activity android:name=".WifiActivity" />
+        <activity android:name=".ProximitySensorActivity" />
+        <activity android:name=".GPSActivity" />
+        <activity android:name=".LifeCycleActivity" />
+        <activity android:name=".LifeCycle2Activity"></activity>
+    </application>
+
+</manifest>
